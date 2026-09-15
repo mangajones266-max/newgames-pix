@@ -1,1 +1,14 @@
-
+{
+  "name": "newgames-pix",
+  "version": "1.0.0",
+  "description": "Servidor de PIX automatico para NewGames",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mercadopago": "^2.0.0",
+    "cors": "^2.8.5"
+  }
+}
